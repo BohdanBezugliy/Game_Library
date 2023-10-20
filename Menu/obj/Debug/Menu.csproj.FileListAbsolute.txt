@@ -1,0 +1,10 @@
+C:\Users\Liizii_\source\repos\Game_Library\Menu\bin\Debug\Menu.exe.config
+C:\Users\Liizii_\source\repos\Game_Library\Menu\bin\Debug\Menu.exe
+C:\Users\Liizii_\source\repos\Game_Library\Menu\bin\Debug\Menu.pdb
+C:\Users\Liizii_\source\repos\Game_Library\Menu\obj\Debug\Menu.csproj.AssemblyReference.cache
+C:\Users\Liizii_\source\repos\Game_Library\Menu\obj\Debug\Menu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Liizii_\source\repos\Game_Library\Menu\obj\Debug\Menu.Properties.Resources.resources
+C:\Users\Liizii_\source\repos\Game_Library\Menu\obj\Debug\Menu.csproj.GenerateResource.cache
+C:\Users\Liizii_\source\repos\Game_Library\Menu\obj\Debug\Menu.csproj.CoreCompileInputs.cache
+C:\Users\Liizii_\source\repos\Game_Library\Menu\obj\Debug\Menu.exe
+C:\Users\Liizii_\source\repos\Game_Library\Menu\obj\Debug\Menu.pdb

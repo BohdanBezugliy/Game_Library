@@ -1,0 +1,11 @@
+C:\Users\Liizii_\source\repos\Game_Library\Snake\bin\Debug\Snake.exe.config
+C:\Users\Liizii_\source\repos\Game_Library\Snake\bin\Debug\Snake.exe
+C:\Users\Liizii_\source\repos\Game_Library\Snake\bin\Debug\Snake.pdb
+C:\Users\Liizii_\source\repos\Game_Library\Snake\obj\Debug\Snake.csproj.AssemblyReference.cache
+C:\Users\Liizii_\source\repos\Game_Library\Snake\obj\Debug\Snake.csproj.SuggestedBindingRedirects.cache
+C:\Users\Liizii_\source\repos\Game_Library\Snake\obj\Debug\Snake.Snake.resources
+C:\Users\Liizii_\source\repos\Game_Library\Snake\obj\Debug\Snake.Properties.Resources.resources
+C:\Users\Liizii_\source\repos\Game_Library\Snake\obj\Debug\Snake.csproj.GenerateResource.cache
+C:\Users\Liizii_\source\repos\Game_Library\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
+C:\Users\Liizii_\source\repos\Game_Library\Snake\obj\Debug\Snake.exe
+C:\Users\Liizii_\source\repos\Game_Library\Snake\obj\Debug\Snake.pdb
