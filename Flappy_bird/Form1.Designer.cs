@@ -1,6 +1,6 @@
 ﻿namespace Flappy_bird
 {
-    partial class Form1
+    partial class FormFlappyBird
     {
         /// <summary>
         /// Required designer variable.
@@ -28,37 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxPipDown = new System.Windows.Forms.PictureBox();
+            this.components = new System.ComponentModel.Container();
+            this.labelForScore = new System.Windows.Forms.Label();
+            this.timerGame = new System.Windows.Forms.Timer(this.components);
+            this.pictureBoxGround = new System.Windows.Forms.PictureBox();
             this.pictureBoxPipeUp = new System.Windows.Forms.PictureBox();
             this.pictureBoxPlayer = new System.Windows.Forms.PictureBox();
-            this.labelForScore = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPipDown)).BeginInit();
+            this.pictureBoxPipeDown = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGround)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPipeUp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPlayer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPipeDown)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox4
+            // labelForScore
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.BackgroundImage = global::Flappy_bird.Properties.Resources.Ground;
-            this.pictureBox4.Location = new System.Drawing.Point(-1, 614);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(634, 50);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
+            this.labelForScore.AutoSize = true;
+            this.labelForScore.BackColor = System.Drawing.Color.Transparent;
+            this.labelForScore.Font = new System.Drawing.Font("Showcard Gothic", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelForScore.Location = new System.Drawing.Point(12, 9);
+            this.labelForScore.Name = "labelForScore";
+            this.labelForScore.Size = new System.Drawing.Size(226, 60);
+            this.labelForScore.TabIndex = 4;
+            this.labelForScore.Text = "Score: 0";
             // 
-            // pictureBoxPipDown
+            // timerGame
             // 
-            this.pictureBoxPipDown.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxPipDown.BackgroundImage = global::Flappy_bird.Properties.Resources.PipeDown;
-            this.pictureBoxPipDown.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxPipDown.Location = new System.Drawing.Point(494, 520);
-            this.pictureBoxPipDown.Name = "pictureBoxPipDown";
-            this.pictureBoxPipDown.Size = new System.Drawing.Size(100, 116);
-            this.pictureBoxPipDown.TabIndex = 2;
-            this.pictureBoxPipDown.TabStop = false;
+            this.timerGame.Enabled = true;
+            this.timerGame.Interval = 20;
+            this.timerGame.Tick += new System.EventHandler(this.timerGame_Tick);
+            // 
+            // pictureBoxGround
+            // 
+            this.pictureBoxGround.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxGround.BackgroundImage = global::Flappy_bird.Properties.Resources.Ground1;
+            this.pictureBoxGround.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxGround.Location = new System.Drawing.Point(-1, 614);
+            this.pictureBoxGround.Name = "pictureBoxGround";
+            this.pictureBoxGround.Size = new System.Drawing.Size(634, 50);
+            this.pictureBoxGround.TabIndex = 3;
+            this.pictureBoxGround.TabStop = false;
             // 
             // pictureBoxPipeUp
             // 
@@ -82,47 +91,49 @@
             this.pictureBoxPlayer.TabIndex = 0;
             this.pictureBoxPlayer.TabStop = false;
             // 
-            // labelForScore
+            // pictureBoxPipeDown
             // 
-            this.labelForScore.AutoSize = true;
-            this.labelForScore.BackColor = System.Drawing.Color.Transparent;
-            this.labelForScore.Font = new System.Drawing.Font("Showcard Gothic", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelForScore.Location = new System.Drawing.Point(12, 20);
-            this.labelForScore.Name = "labelForScore";
-            this.labelForScore.Size = new System.Drawing.Size(226, 60);
-            this.labelForScore.TabIndex = 4;
-            this.labelForScore.Text = "Score: 0";
+            this.pictureBoxPipeDown.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxPipeDown.BackgroundImage = global::Flappy_bird.Properties.Resources.PipeDown;
+            this.pictureBoxPipeDown.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxPipeDown.Location = new System.Drawing.Point(505, 503);
+            this.pictureBoxPipeDown.Name = "pictureBoxPipeDown";
+            this.pictureBoxPipeDown.Size = new System.Drawing.Size(100, 161);
+            this.pictureBoxPipeDown.TabIndex = 2;
+            this.pictureBoxPipeDown.TabStop = false;
             // 
-            // Form1
+            // FormFlappyBird
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(633, 666);
+            this.ClientSize = new System.Drawing.Size(633, 663);
             this.Controls.Add(this.labelForScore);
-            this.Controls.Add(this.pictureBoxPipDown);
-            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBoxGround);
             this.Controls.Add(this.pictureBoxPipeUp);
             this.Controls.Add(this.pictureBoxPlayer);
+            this.Controls.Add(this.pictureBoxPipeDown);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "Form1";
+            this.Name = "FormFlappyBird";
             this.Text = "Flappy bird";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPipDown)).EndInit();
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.FormFlappyBird_KeyUp);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGround)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPipeUp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPlayer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPipeDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBoxPlayer;
-        private System.Windows.Forms.PictureBox pictureBoxPipeUp;
-        private System.Windows.Forms.PictureBox pictureBoxPipDown;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label labelForScore;
+        private System.Windows.Forms.Timer timerGame;
+        public System.Windows.Forms.PictureBox pictureBoxPlayer;
+        public System.Windows.Forms.PictureBox pictureBoxPipeUp;
+        public System.Windows.Forms.PictureBox pictureBoxPipeDown;
+        public System.Windows.Forms.PictureBox pictureBoxGround;
     }
 }
 
