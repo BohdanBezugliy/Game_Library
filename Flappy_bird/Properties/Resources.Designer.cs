@@ -93,6 +93,16 @@ namespace Flappy_bird.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap OIP__6__PhotoRoom_png_PhotoRoom {
+            get {
+                object obj = ResourceManager.GetObject("OIP (6)-PhotoRoom.png-PhotoRoom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PipeDown {
             get {
                 object obj = ResourceManager.GetObject("PipeDown", resourceCulture);
@@ -106,6 +116,16 @@ namespace Flappy_bird.Properties {
         internal static System.Drawing.Bitmap PipeUp {
             get {
                 object obj = ResourceManager.GetObject("PipeUp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Знімок_екрана_2023_10_29_195531_PhotoRoom_png_PhotoRoom {
+            get {
+                object obj = ResourceManager.GetObject("Знімок екрана 2023-10-29 195531-PhotoRoom.png-PhotoRoom", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -118,19 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PipeUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PipeUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Bird" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bird1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PipeDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PipeDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PipeUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PipeUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Знімок екрана 2023-10-29 195531-PhotoRoom.png-PhotoRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Знімок екрана 2023-10-29 195531-PhotoRoom.png-PhotoRoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ground1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ground1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OIP (6)-PhotoRoom.png-PhotoRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OIP (6)-PhotoRoom.png-PhotoRoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

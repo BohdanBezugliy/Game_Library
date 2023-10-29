@@ -23,51 +23,96 @@ namespace Flappy_bird
         private void timerGame_Tick(object sender, EventArgs e)
         {
             pictureBoxPlayer.Top += gravity;
-            pictureBoxPipeUp.Left -= pipeSpeed;
-            pictureBoxPipeDown.Left -= pipeSpeed;
+            pictureBoxPipeUp1.Left -= pipeSpeed;
+            pictureBoxPipeDown1.Left -= pipeSpeed;
+            pictureBoxPipeUp2.Left -= pipeSpeed;
+            pictureBoxPipeDown2.Left -= pipeSpeed;
+            pictureBoxPipeUp3.Left -= pipeSpeed;
+            pictureBoxPipeDown3.Left -= pipeSpeed;
+            pictureBoxPipeUp4.Left -= pipeSpeed;
+            pictureBoxPipeDown4.Left -= pipeSpeed;
             labelForScore.Text = $"Score: {score}";
-            if (pictureBoxPipeUp.Left< -100)
+            if (pictureBoxPipeUp1.Left < -100)
             {
-                pictureBoxPipeUp.Left = rand.Next(minValue:700,maxValue:900);
-                pictureBoxPipeUp.Height = rand.Next(minValue: 100, maxValue: 350);
-            }
-            if (pictureBoxPipeDown.Left< -100)
-            {
-                pictureBoxPipeDown.Left = rand.Next(minValue: 600, maxValue: 800);
-                pictureBoxPipeDown.Height = rand.Next(minValue: 100, maxValue: 350);
+                pictureBoxPipeUp1.Left = this.Width + 500;
+                pictureBoxPipeUp1.Location = new Point(pictureBoxPipeUp1.Location.X, rand.Next(-134, -5));
+                pictureBoxPipeDown1.Left = this.Width + 500;
+                pictureBoxPipeDown1.Location = new Point(pictureBoxPipeDown1.Location.X, rand.Next(402, 503));
                 score++;
             }
-            if(pictureBoxPlayer.Bounds.IntersectsWith(pictureBoxPipeDown.Bounds)|| pictureBoxPlayer.Bounds.IntersectsWith(pictureBoxPipeUp.Bounds) || pictureBoxPlayer.Bounds.IntersectsWith(pictureBoxGround.Bounds))
+            if (pictureBoxPipeUp2.Left < -100)
+            {
+                pictureBoxPipeUp2.Left = pictureBoxPipeUp1.Left + 500;
+                pictureBoxPipeUp2.Location = new Point(pictureBoxPipeUp1.Location.X + 300, rand.Next(-134, -5));
+                pictureBoxPipeDown2.Left = pictureBoxPipeUp1.Left + 500;
+                pictureBoxPipeDown2.Location = new Point(pictureBoxPipeDown1.Location.X + 300, rand.Next(402, 503));
+                score++;
+            }
+            if (pictureBoxPipeUp3.Left < -100)
+            {
+                pictureBoxPipeUp3.Left = pictureBoxPipeUp2.Left + 500;
+                pictureBoxPipeUp3.Location = new Point(pictureBoxPipeUp2.Location.X + 400, rand.Next(-134, -5));
+                pictureBoxPipeDown3.Left = pictureBoxPipeUp2.Left + 500;
+                pictureBoxPipeDown3.Location = new Point(pictureBoxPipeDown2.Location.X + 400, rand.Next(402, 503));
+                score++;
+            }
+            if (pictureBoxPipeUp4.Left < -100)
+            {
+                pictureBoxPipeUp4.Left = pictureBoxPipeUp3.Left + 500;
+                pictureBoxPipeUp4.Location = new Point(pictureBoxPipeUp3.Location.X + 500, rand.Next(-134, -5));
+                pictureBoxPipeDown4.Left = pictureBoxPipeUp3.Left + 500;
+                pictureBoxPipeDown4.Location = new Point(pictureBoxPipeDown3.Location.X + 500, rand.Next(402, 503));
+                score++;
+            }
+            if (pictureBoxPlayer.Bounds.IntersectsWith(pictureBoxPipeDown1.Bounds)
+                || pictureBoxPlayer.Bounds.IntersectsWith(pictureBoxPipeUp1.Bounds)
+                || pictureBoxPlayer.Bounds.IntersectsWith(pictureBoxGround.Bounds)
+                || pictureBoxPlayer.Bounds.IntersectsWith(pictureBoxPipeDown2.Bounds)
+                || pictureBoxPlayer.Bounds.IntersectsWith(pictureBoxPipeUp2.Bounds)
+                || pictureBoxPlayer.Bounds.IntersectsWith(pictureBoxPipeDown3.Bounds)
+                || pictureBoxPlayer.Bounds.IntersectsWith(pictureBoxPipeUp3.Bounds)
+                || pictureBoxPlayer.Bounds.IntersectsWith(pictureBoxPipeDown4.Bounds)
+                || pictureBoxPlayer.Bounds.IntersectsWith(pictureBoxPipeUp4.Bounds))
             {
                 timerGame.Stop();
-                Label gameOverLabel = new Label();
-                gameOverLabel.Font = new Font("Showcard Gothic",36);
-                gameOverLabel.Text = "Game over!";
-                gameOverLabel.Size = new Size(350, 50);
-                gameOverLabel.Location = new Point((this.Size.Width - 330) / 2, (this.Size.Height - 400) / 2);
-                this.Controls.Add(gameOverLabel);
-                Button restartButton = new Button();
-                restartButton.BackColor = Color.White;
-                restartButton.Font = new Font("Arial", 14, FontStyle.Bold);
-                restartButton.Text = "Restart";
-                restartButton.Size = new Size(150, 60);
-                restartButton.Location = new Point((this.Size.Width - 170)/ 2, (this.Size.Height - 80) / 2);
-                restartButton.Click += restartButton_Click;
-                this.Controls.Add(restartButton);
+                exitButton.Visible = true;
+                exitButton.Enabled = true;
+                pictureBoxGameOver.Visible = true;
+                restartButton.Visible=true;
+                restartButton.Enabled = true;
+                restartButton.BringToFront();
             }
-        }
-
-        private void restartButton_Click(object sender, EventArgs e)
-        {
-            Application.Restart();
         }
 
         private void FormFlappyBird_KeyUp(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode == Keys.Space && timerGame.Enabled)
+            if (e.KeyCode == Keys.Up && timerGame.Enabled)
             {
                 pictureBoxPlayer.Top -= gravity * 15;
             }
+        }
+
+        private void StartButton_Click(object sender, EventArgs e)
+        {
+            timerGame.Enabled = true;
+            StartButton.Visible = false;
+            exitButton.Visible = false;
+            exitButton.Enabled= false;
+            pictureBoxNameOfGame.Visible = false;
+            restartButton.Enabled = false;
+            restartButton.Visible= false;
+            labelForScore.Visible = true;
+            labelForScore.BringToFront();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void restartButton_Click_1(object sender, EventArgs e)
+        {
+            Application.Restart();
         }
     }
 }
