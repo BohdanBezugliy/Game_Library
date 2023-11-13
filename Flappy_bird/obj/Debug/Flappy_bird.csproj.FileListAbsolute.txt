@@ -1,0 +1,10 @@
+D:\ТРПЗ\Flappy_bird\bin\Debug\Flappy_bird.exe.config
+D:\ТРПЗ\Flappy_bird\bin\Debug\Flappy_bird.exe
+D:\ТРПЗ\Flappy_bird\bin\Debug\Flappy_bird.pdb
+D:\ТРПЗ\Flappy_bird\obj\Debug\Flappy_bird.csproj.AssemblyReference.cache
+D:\ТРПЗ\Flappy_bird\obj\Debug\Flappy_bird.Properties.Resources.resources
+D:\ТРПЗ\Flappy_bird\obj\Debug\Flappy_bird.csproj.GenerateResource.cache
+D:\ТРПЗ\Flappy_bird\obj\Debug\Flappy_bird.csproj.CoreCompileInputs.cache
+D:\ТРПЗ\Flappy_bird\obj\Debug\Flappy_bird.exe
+D:\ТРПЗ\Flappy_bird\obj\Debug\Flappy_bird.pdb
+D:\ТРПЗ\Flappy_bird\obj\Debug\Flappy_bird.FormFlappyBird.resources
