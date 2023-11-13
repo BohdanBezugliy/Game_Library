@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu", "Menu\Menu.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tic_tac_toe", "Tic_tac_toe\Tic_tac_toe.csproj", "{B77F7763-36E2-4C21-8EFE-65923A91DFFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tanks", "Tanks\Tanks.csproj", "{BC0FD25F-9EFE-42B8-ABCE-B3ED64367CDC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flappy_bird", "Flappy_bird\Flappy_bird.csproj", "{68934E15-911C-4B18-B131-7D4248C451E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Snake\Snake.csproj", "{3B1BAFCD-613A-44EC-831A-3DA75B97534F}"
@@ -27,10 +25,6 @@ Global
 		{B77F7763-36E2-4C21-8EFE-65923A91DFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B77F7763-36E2-4C21-8EFE-65923A91DFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B77F7763-36E2-4C21-8EFE-65923A91DFFA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BC0FD25F-9EFE-42B8-ABCE-B3ED64367CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BC0FD25F-9EFE-42B8-ABCE-B3ED64367CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC0FD25F-9EFE-42B8-ABCE-B3ED64367CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BC0FD25F-9EFE-42B8-ABCE-B3ED64367CDC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{68934E15-911C-4B18-B131-7D4248C451E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{68934E15-911C-4B18-B131-7D4248C451E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68934E15-911C-4B18-B131-7D4248C451E9}.Release|Any CPU.ActiveCfg = Release|Any CPU

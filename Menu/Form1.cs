@@ -10,11 +10,36 @@ using System.Windows.Forms;
 
 namespace Menu
 {
-    public partial class Form1 : Form
+    public partial class FormMenu : Form
     {
-        public Form1()
+        public FormMenu()
         {
             InitializeComponent();
+        }
+
+        private void SnakeStartBtn_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void TicTacToeStartBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FlappyBirdStartBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BattleCityStartBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ExitBtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

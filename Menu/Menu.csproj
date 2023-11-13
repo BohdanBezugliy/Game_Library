@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +79,38 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1586163131_45-p-pikselnie-igrovie-foni-116.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41878d74dac59d2a6001403d016c03f8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bird.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flappy-bird-pixel-art-flappy-bird-1156289438531sspmvwnk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\512x512bb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Flappy_bird\Flappy_bird.csproj">
+      <Project>{68934e15-911c-4b18-b131-7d4248c451e9}</Project>
+      <Name>Flappy_bird</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Snake\Snake.csproj">
+      <Project>{3b1bafcd-613a-44ec-831a-3da75b97534f}</Project>
+      <Name>Snake</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tic_tac_toe\Tic_tac_toe.csproj">
+      <Project>{b77f7763-36e2-4c21-8efe-65923a91dffa}</Project>
+      <Name>Tic_tac_toe</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

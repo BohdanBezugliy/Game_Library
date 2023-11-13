@@ -1,0 +1,10 @@
+D:\ТРПЗ_проект\Menu\bin\Debug\Menu.exe.config
+D:\ТРПЗ_проект\Menu\bin\Debug\Menu.exe
+D:\ТРПЗ_проект\Menu\bin\Debug\Menu.pdb
+D:\ТРПЗ_проект\Menu\obj\Debug\Menu.csproj.AssemblyReference.cache
+D:\ТРПЗ_проект\Menu\obj\Debug\Menu.Properties.Resources.resources
+D:\ТРПЗ_проект\Menu\obj\Debug\Menu.csproj.GenerateResource.cache
+D:\ТРПЗ_проект\Menu\obj\Debug\Menu.csproj.CoreCompileInputs.cache
+D:\ТРПЗ_проект\Menu\obj\Debug\Menu.exe
+D:\ТРПЗ_проект\Menu\obj\Debug\Menu.pdb
+D:\ТРПЗ_проект\Menu\obj\Debug\Menu.FormMenu.resources
