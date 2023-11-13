@@ -9,3 +9,13 @@ C:\Users\Ира\source\repos\Game_Library\Tic_tac_toe\obj\Debug\Tic_tac_toe.cspr
 C:\Users\Ира\source\repos\Game_Library\Tic_tac_toe\obj\Debug\Tic_tac_toe.csproj.CoreCompileInputs.cache
 C:\Users\Ира\source\repos\Game_Library\Tic_tac_toe\obj\Debug\Tic_tac_toe.exe
 C:\Users\Ира\source\repos\Game_Library\Tic_tac_toe\obj\Debug\Tic_tac_toe.pdb
+D:\ТРПЗ_проект\Tic_tac_toe\bin\Debug\Tic_tac_toe.exe.config
+D:\ТРПЗ_проект\Tic_tac_toe\bin\Debug\Tic_tac_toe.exe
+D:\ТРПЗ_проект\Tic_tac_toe\bin\Debug\Tic_tac_toe.pdb
+D:\ТРПЗ_проект\Tic_tac_toe\obj\Debug\Tic_tac_toe.csproj.AssemblyReference.cache
+D:\ТРПЗ_проект\Tic_tac_toe\obj\Debug\Tic_tac_toe.Form1.resources
+D:\ТРПЗ_проект\Tic_tac_toe\obj\Debug\Tic_tac_toe.Properties.Resources.resources
+D:\ТРПЗ_проект\Tic_tac_toe\obj\Debug\Tic_tac_toe.csproj.GenerateResource.cache
+D:\ТРПЗ_проект\Tic_tac_toe\obj\Debug\Tic_tac_toe.csproj.CoreCompileInputs.cache
+D:\ТРПЗ_проект\Tic_tac_toe\obj\Debug\Tic_tac_toe.exe
+D:\ТРПЗ_проект\Tic_tac_toe\obj\Debug\Tic_tac_toe.pdb

@@ -1,9 +1,0 @@
-D:\ТРПЗ\Tanks\bin\Debug\Tanks.exe.config
-D:\ТРПЗ\Tanks\bin\Debug\Tanks.exe
-D:\ТРПЗ\Tanks\bin\Debug\Tanks.pdb
-D:\ТРПЗ\Tanks\obj\Debug\Tanks.csproj.AssemblyReference.cache
-D:\ТРПЗ\Tanks\obj\Debug\Tanks.Properties.Resources.resources
-D:\ТРПЗ\Tanks\obj\Debug\Tanks.csproj.GenerateResource.cache
-D:\ТРПЗ\Tanks\obj\Debug\Tanks.csproj.CoreCompileInputs.cache
-D:\ТРПЗ\Tanks\obj\Debug\Tanks.exe
-D:\ТРПЗ\Tanks\obj\Debug\Tanks.pdb

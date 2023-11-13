@@ -8,3 +8,13 @@ D:\ТРПЗ_проект\Menu\obj\Debug\Menu.csproj.CoreCompileInputs.cache
 D:\ТРПЗ_проект\Menu\obj\Debug\Menu.exe
 D:\ТРПЗ_проект\Menu\obj\Debug\Menu.pdb
 D:\ТРПЗ_проект\Menu\obj\Debug\Menu.FormMenu.resources
+D:\ТРПЗ_проект\Menu\bin\Debug\Flappy_bird.exe
+D:\ТРПЗ_проект\Menu\bin\Debug\Snake.exe
+D:\ТРПЗ_проект\Menu\bin\Debug\Tic_tac_toe.exe
+D:\ТРПЗ_проект\Menu\bin\Debug\Flappy_bird.pdb
+D:\ТРПЗ_проект\Menu\bin\Debug\Flappy_bird.exe.config
+D:\ТРПЗ_проект\Menu\bin\Debug\Snake.pdb
+D:\ТРПЗ_проект\Menu\bin\Debug\Snake.exe.config
+D:\ТРПЗ_проект\Menu\bin\Debug\Tic_tac_toe.pdb
+D:\ТРПЗ_проект\Menu\bin\Debug\Tic_tac_toe.exe.config
+D:\ТРПЗ_проект\Menu\obj\Debug\Menu.csproj.CopyComplete

@@ -107,12 +107,14 @@ namespace Flappy_bird
 
         private void exitButton_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void restartButton_Click_1(object sender, EventArgs e)
         {
-            Application.Restart();
+            this.Close();
+            FormFlappyBird From = new FormFlappyBird();
+            From.Show();
         }
     }
 }

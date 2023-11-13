@@ -230,8 +230,7 @@ namespace Tic_tac_toe
 
         private void button10_Click(object sender, EventArgs e)
         {
-
-            Application.Exit();
+            this.Close();
         }
 
         private void btnTic2_Click(object sender, EventArgs e)
